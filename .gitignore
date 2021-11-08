@@ -1,0 +1,36 @@
+# Java Build
+.gradle
+.classpath
+.github
+dump.rdb
+out
+bin
+target
+buildscan.log
+/docs/site
+
+# Python
+/polyglot-clients/python/conductor.egg-info
+*.pyc
+
+# OS & IDE
+.DS_Store
+.settings
+.vscode
+.idea
+.project
+*.iml
+
+# JS & UI Related
+node_modules
+/ui/build
+/ui/node_modules
+
+# publishing secrets
+secrets/signing-key
+
+# local builds
+lib/
+build/
+*/build/
+
